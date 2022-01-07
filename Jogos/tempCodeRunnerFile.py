@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def jogar():
     print("*********************************")
     print("***Bem vindo ao jogo da Forca!***")
@@ -14,7 +15,8 @@ def jogar():
 
     while(not enforcou and not acertou):
 
-        chute = str(input("Qual letra? ").strip().upper())
+        chute = input("Qual letra? ")
+        chute = chute.strip().upper()
 
         if(chute in palavra_secreta):
             index = 0

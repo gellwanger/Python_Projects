@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-1
 import random
 def jogar():
 
