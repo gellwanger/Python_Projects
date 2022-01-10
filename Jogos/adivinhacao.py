@@ -1,9 +1,12 @@
 import random
-def jogar():
 
+def imprime_mensagem_inicial():
     print("*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
     print("*********************************")
+
+def jogar():
+    imprime_mensagem_inicial()
 
     numero_secreto = random.randrange(1,101)
     total_de_tentativas = 0
@@ -33,8 +36,8 @@ def jogar():
             continue
 
         acertou = chute == numero_secreto
-        maior   = chute > numero_secreto
-        menor   = chute < numero_secreto
+        maior = chute > numero_secreto
+        menor = chute < numero_secreto
 
         if(acertou):
             print("Você acertou e fez {} pontos!".format(pontos))
