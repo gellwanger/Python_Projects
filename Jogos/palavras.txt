@@ -41,3 +41,4 @@ quina
 roma
 tangerina
 uva
+chocolate

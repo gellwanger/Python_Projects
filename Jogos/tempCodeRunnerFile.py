@@ -1,4 +1,2 @@
-
-#     print("*********************************")
-#     print("***Bem vindo ao jogo da Forca!***")
-#     print("*********************************")   
+def carrega_palavra_secreta():
+    palavras = []
